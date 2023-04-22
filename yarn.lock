@@ -2299,29 +2299,29 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@project/server@workspace:packages/server"
   dependencies:
-    "@tsed/ajv": ^7.25.0
+    "@tsed/ajv": ^7.26.0
     "@tsed/cli-plugin-eslint": 4.4.6
     "@tsed/cli-plugin-jest": 4.4.6
-    "@tsed/common": ^7.25.0
-    "@tsed/core": ^7.25.0
-    "@tsed/di": ^7.25.0
-    "@tsed/engines": ^7.25.0
-    "@tsed/exceptions": ^7.25.0
-    "@tsed/json-mapper": ^7.25.0
+    "@tsed/common": ^7.26.0
+    "@tsed/core": ^7.26.0
+    "@tsed/di": ^7.26.0
+    "@tsed/engines": ^7.26.0
+    "@tsed/exceptions": ^7.26.0
+    "@tsed/json-mapper": ^7.26.0
     "@tsed/logger": ^6.5.0
     "@tsed/logger-file": ^6.5.0
-    "@tsed/openspec": ^7.25.0
-    "@tsed/platform-cache": ^7.25.0
-    "@tsed/platform-exceptions": ^7.25.0
-    "@tsed/platform-express": ^7.25.0
-    "@tsed/platform-log-middleware": ^7.25.0
-    "@tsed/platform-middlewares": ^7.25.0
-    "@tsed/platform-params": ^7.25.0
-    "@tsed/platform-response-filter": ^7.25.0
-    "@tsed/platform-views": ^7.25.0
-    "@tsed/schema": ^7.25.0
-    "@tsed/swagger": ^7.25.0
-    "@tsed/vite-ssr-plugin": ^7.25.0
+    "@tsed/openspec": ^7.26.0
+    "@tsed/platform-cache": ^7.26.0
+    "@tsed/platform-exceptions": ^7.26.0
+    "@tsed/platform-express": ^7.26.0
+    "@tsed/platform-log-middleware": ^7.26.0
+    "@tsed/platform-middlewares": ^7.26.0
+    "@tsed/platform-params": ^7.26.0
+    "@tsed/platform-response-filter": ^7.26.0
+    "@tsed/platform-views": ^7.26.0
+    "@tsed/schema": ^7.26.0
+    "@tsed/swagger": ^7.26.0
+    "@tsed/vite-ssr-plugin": ^7.26.0
     "@types/compression": ^1.7.2
     "@types/cookie-parser": ^1.4.3
     "@types/cors": ^2.8.13
@@ -2438,18 +2438,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsed/ajv@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/ajv@npm:7.25.0"
+"@tsed/ajv@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/ajv@npm:7.26.0"
   dependencies:
     ajv-errors: 3.0.0
     ajv-formats: 2.1.1
     tslib: 2.5.0
   peerDependencies:
-    "@tsed/core": ^7.25.0
-    "@tsed/di": ^7.25.0
-    "@tsed/exceptions": ^7.25.0
-    "@tsed/schema": ^7.25.0
+    "@tsed/core": ^7.26.0
+    "@tsed/di": ^7.26.0
+    "@tsed/exceptions": ^7.26.0
+    "@tsed/schema": ^7.26.0
     ajv: ">=8.9.0"
     ajv-errors: ">=3.0.0"
   peerDependenciesMeta:
@@ -2461,7 +2461,7 @@ __metadata:
       optional: false
     "@tsed/schema":
       optional: false
-  checksum: 6ab239ab7880ffba5b56a6b27abdbe7486340a3c7aaac0991ca7c1eec65d4cbbd1301b351ec91c62ff7cdbf0a6879f49c7f64918695ee38a2c3b4d15af24af65
+  checksum: e344e34609973ce93137360196af648859afc4148dfa97b302aeca04ae5e6bdd09e20a8c2008cbf2abe299845f4c14d48a5522af423008a1c88d57f95ec66c04
   languageName: node
   linkType: hard
 
@@ -2483,24 +2483,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsed/common@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/common@npm:7.25.0"
+"@tsed/common@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/common@npm:7.26.0"
   dependencies:
-    "@tsed/core": 7.25.0
-    "@tsed/di": 7.25.0
-    "@tsed/exceptions": 7.25.0
-    "@tsed/json-mapper": 7.25.0
+    "@tsed/core": 7.26.0
+    "@tsed/di": 7.26.0
+    "@tsed/exceptions": 7.26.0
+    "@tsed/json-mapper": 7.26.0
     "@tsed/logger": ">=6.2.2"
     "@tsed/logger-file": ">=6.2.2"
-    "@tsed/platform-exceptions": 7.25.0
-    "@tsed/platform-log-middleware": 7.25.0
-    "@tsed/platform-middlewares": 7.25.0
-    "@tsed/platform-params": 7.25.0
-    "@tsed/platform-response-filter": 7.25.0
-    "@tsed/platform-router": 7.25.0
-    "@tsed/platform-views": 7.25.0
-    "@tsed/schema": 7.25.0
+    "@tsed/platform-exceptions": 7.26.0
+    "@tsed/platform-log-middleware": 7.26.0
+    "@tsed/platform-middlewares": 7.26.0
+    "@tsed/platform-params": 7.26.0
+    "@tsed/platform-response-filter": 7.26.0
+    "@tsed/platform-router": 7.26.0
+    "@tsed/platform-views": 7.26.0
+    "@tsed/schema": 7.26.0
     "@types/json-schema": 7.0.11
     accepts: ^1.3.8
     tslib: 2.5.0
@@ -2513,29 +2513,29 @@ __metadata:
       optional: false
     "@tsed/logger-file":
       optional: false
-  checksum: ea9bbfbefe6d91449f730e3a2c4d5feb2ea8009f96c16d156b49113964e423319d0119e660fb4cfbbabebfbab527f47df5a2b8fc0b8b0f8f62b172bdb7b9d269
+  checksum: 1a9e0b3d2d91fcc12e62f669a5466bbfa0abacdd364a16b2b4af31f36cfccacdf581bdcf3a8e1373ac10f4fea19f51a44e739a6140c5f1e1e7919513240b6e1b
   languageName: node
   linkType: hard
 
-"@tsed/core@npm:7.25.0, @tsed/core@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/core@npm:7.25.0"
+"@tsed/core@npm:7.26.0, @tsed/core@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/core@npm:7.26.0"
   dependencies:
     reflect-metadata: ^0.1.13
     tslib: 2.5.0
-  checksum: 0646694368f96169d107b2e75a72e044aca58d6dab52e4711d841e94691e46688f2b9dfb226a7ba89c3ae5c2c969e11da089deb7ff57967345f086ab6f5ba813
+  checksum: d6518b618340b00be0d4fb1feb5e64925fad77c60bb738948c11fea614e93fe3d910f1e9a90afe39e6ff958313f466464b36a4745f0c0f8654e856fc0489382f
   languageName: node
   linkType: hard
 
-"@tsed/di@npm:7.25.0, @tsed/di@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/di@npm:7.25.0"
+"@tsed/di@npm:7.26.0, @tsed/di@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/di@npm:7.26.0"
   dependencies:
     tslib: 2.5.0
   peerDependencies:
-    "@tsed/core": ^7.25.0
+    "@tsed/core": ^7.26.0
     "@tsed/logger": ">=6.2.2"
-    "@tsed/schema": ^7.25.0
+    "@tsed/schema": ^7.26.0
   peerDependenciesMeta:
     "@tsed/core":
       optional: false
@@ -2543,48 +2543,48 @@ __metadata:
       optional: false
     "@tsed/schema":
       optional: false
-  checksum: 0f3c4bb9906d604736dc5dd19986b2316c807ee4c888ae525d7be1edf7a9b3745b91d3de1a43a3651e911df95f96580116b5ea488a0ab8f5d21b0893a1388c64
+  checksum: 94a9533937368f8b913a63901953d33e44f343f6b4a3405c082ef622d6a158f3398d283faf1df3093de1a19063a88936a6b40b8e0336e94a1a4c8624b871fd8e
   languageName: node
   linkType: hard
 
-"@tsed/engines@npm:7.25.0, @tsed/engines@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/engines@npm:7.25.0"
+"@tsed/engines@npm:7.26.0, @tsed/engines@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/engines@npm:7.26.0"
   dependencies:
     filedirname: ^2.7.0
     fs-extra: 10.0.1
     tslib: 2.5.0
-  checksum: 7bcaa52b17731dfec75face0ab4d7f05953713177948dc0bc7147fb4584a3062a68e8cd6e02f4d6b65b4f650f0d62832ae8a242a5157b465e26dd0862ff6024f
+  checksum: 65b15a9bac0a7cfb1d8eb53c0d61976420f29ce0b47646829798ac85d81922bfe0d4b5ec9503bdfa913924acdaafe38f92505dd70f4acd7bab0ab1d5c88ce9c4
   languageName: node
   linkType: hard
 
-"@tsed/exceptions@npm:7.25.0, @tsed/exceptions@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/exceptions@npm:7.25.0"
+"@tsed/exceptions@npm:7.26.0, @tsed/exceptions@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/exceptions@npm:7.26.0"
   dependencies:
     change-case: 4.1.2
     statuses: ">=2.0.1"
     tslib: 2.5.0
   peerDependencies:
-    "@tsed/core": ^7.25.0
-  checksum: 1c3ef3ac3813c4a130937d7aef6ed15acb1b435ae3345ccd323698e75790d03022b31970c7d2c4e87b796163df5b66edf7964411fa590eeb3cafe916ca7eb11c
+    "@tsed/core": ^7.26.0
+  checksum: 3bd64061f7d1772657ea9244e95f72af8425393abef9d2727d80d8cb5170d3c32c0f36d27f5fd9fc24a7d4c2df2551dc4ddc2665345100157ca7524432dac912
   languageName: node
   linkType: hard
 
-"@tsed/json-mapper@npm:7.25.0, @tsed/json-mapper@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/json-mapper@npm:7.25.0"
+"@tsed/json-mapper@npm:7.26.0, @tsed/json-mapper@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/json-mapper@npm:7.26.0"
   dependencies:
     tslib: 2.5.0
   peerDependencies:
-    "@tsed/core": ^7.25.0
-    "@tsed/schema": ^7.25.0
+    "@tsed/core": ^7.26.0
+    "@tsed/schema": ^7.26.0
   peerDependenciesMeta:
     "@tsed/core":
       optional: false
     "@tsed/schema":
       optional: false
-  checksum: e358e84e07b59a8fe50aeb9ff8c07b56e1a48f31ffb4826e5e921e0a1186c333f7d00770a3a139dda6756a928a1b468997401052897e9ebb0045e77026ce2226
+  checksum: 4e1c031ed8a4aeae42e53195b9baaef35ccf60048e9c252afaf127a2dd03e669910e3afd25799ee174e9e6ba660fe8b1b9ab6e6f78e9c42be2d7e5eef4386754
   languageName: node
   linkType: hard
 
@@ -2612,35 +2612,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsed/normalize-path@npm:7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/normalize-path@npm:7.25.0"
+"@tsed/normalize-path@npm:7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/normalize-path@npm:7.26.0"
   dependencies:
     normalize-path: 3.0.0
     tslib: 2.5.0
-  checksum: 086d5733364f5c3360dfac39db731fe0ea1a024c9972eaffde6c26ee8077379fb5b39c76279b56b9392c40f253bbad6c77407588412382b7486f3c393861d42e
+  checksum: 9afca0bda1492893def7c3f8556aea0732331b255b720c3d0a7c81bb8b843533b5118411a26144bebe39b27cda49121741b2af1c9d7fc8fdf09044d5b3d38c2b
   languageName: node
   linkType: hard
 
-"@tsed/openspec@npm:7.25.0, @tsed/openspec@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/openspec@npm:7.25.0"
-  checksum: b1b422204113786680e550ecd64184fcb16508da0c03e08e86ea5754ab83d9c661c2eab6fa698d3f111649e170d2a9987c4f60c76728341c3224583e06d00bb8
+"@tsed/openspec@npm:7.26.0, @tsed/openspec@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/openspec@npm:7.26.0"
+  checksum: 979cd50037a4b28900a66175282f00f733bef56c3dccb675491555e7f0feb30574b4be036366962bfae4c2b428232b91d3d8af3c11df6337db9492044d1c80b6
   languageName: node
   linkType: hard
 
-"@tsed/platform-cache@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/platform-cache@npm:7.25.0"
+"@tsed/platform-cache@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/platform-cache@npm:7.26.0"
   dependencies:
     cache-manager: ^5.1.3
     micromatch: 4.0.5
     tslib: 2.5.0
   peerDependencies:
-    "@tsed/core": ^7.25.0
-    "@tsed/di": ^7.25.0
-    "@tsed/json-mapper": ^7.25.0
-    "@tsed/schema": ^7.25.0
+    "@tsed/core": ^7.26.0
+    "@tsed/di": ^7.26.0
+    "@tsed/json-mapper": ^7.26.0
+    "@tsed/schema": ^7.26.0
   peerDependenciesMeta:
     "@tsed/core":
       optional: false
@@ -2650,20 +2650,20 @@ __metadata:
       optional: false
     "@tsed/schema":
       optional: false
-  checksum: c5a2f2c0ea89853252c4cf2ecb350ea52e985d2943cad890e291e355c0b272628082423049edab2488e3c5e3eebcffebc4b4d8d92934abe3e0e81fbfd297c502
+  checksum: 2deec5f2f61880c551fd2f297960e10d863ab716e258494d4a9746daef96e17480cab903a9a440a2323ff1701d3c78da533697724d64ead137a98536ba5ca056
   languageName: node
   linkType: hard
 
-"@tsed/platform-exceptions@npm:7.25.0, @tsed/platform-exceptions@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/platform-exceptions@npm:7.25.0"
+"@tsed/platform-exceptions@npm:7.26.0, @tsed/platform-exceptions@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/platform-exceptions@npm:7.26.0"
   dependencies:
     tslib: 2.5.0
   peerDependencies:
-    "@tsed/core": ^7.25.0
-    "@tsed/di": ^7.25.0
-    "@tsed/exceptions": ^7.25.0
-    "@tsed/schema": ^7.25.0
+    "@tsed/core": ^7.26.0
+    "@tsed/di": ^7.26.0
+    "@tsed/exceptions": ^7.26.0
+    "@tsed/schema": ^7.26.0
   peerDependenciesMeta:
     "@tsed/core":
       optional: false
@@ -2673,26 +2673,26 @@ __metadata:
       optional: false
     "@tsed/schema":
       optional: false
-  checksum: 2812d3ff24d712efc61d82b403caefd4f1172681848871055073e91eb21d8b917352fb79dc3ca7b3caa039ce42025a0ef15fa6383f1e86d733777e3bbb6a2a4f
+  checksum: a7a6fd7e1e48e545a36975acc5da086181ff47aead382a63f52dd464f7dc3e09ee6f3640994710d4fdf06f61b3613e3c3a17af957b878f781ced88fea4e1b60b
   languageName: node
   linkType: hard
 
-"@tsed/platform-express@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/platform-express@npm:7.25.0"
+"@tsed/platform-express@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/platform-express@npm:7.26.0"
   dependencies:
     express: ^4.18.1
     multer: ^1.4.5-lts.1
     tslib: 2.5.0
   peerDependencies:
-    "@tsed/common": ^7.25.0
-    "@tsed/core": ^7.25.0
-    "@tsed/di": ^7.25.0
-    "@tsed/json-mapper": ^7.25.0
+    "@tsed/common": ^7.26.0
+    "@tsed/core": ^7.26.0
+    "@tsed/di": ^7.26.0
+    "@tsed/json-mapper": ^7.26.0
     "@tsed/logger": ">=6.2.2"
-    "@tsed/openspec": ^7.25.0
-    "@tsed/platform-views": ^7.25.0
-    "@tsed/schema": ^7.25.0
+    "@tsed/openspec": ^7.26.0
+    "@tsed/platform-views": ^7.26.0
+    "@tsed/schema": ^7.26.0
     "@types/multer": ^1.4.5
     body-parser: ^1.19.0
     multer: ^1.4.5-lts.1
@@ -2713,19 +2713,19 @@ __metadata:
       optional: false
     multer:
       optional: false
-  checksum: 3e9a7caf199b5fbb301934bfcce3a7e6577e6253306a4752055a7e372254744246dcd14f3223481099dd76a701542d901dc9f5a94b79cd35d07f081892539679
+  checksum: 94390934159ee940613858772931ae385e3b6a8aca9772e06f510b44c03675a4120742a821d92d05fb9743b028c0adbc8575c2e9038bb346ce71fd34ab1fd04b
   languageName: node
   linkType: hard
 
-"@tsed/platform-log-middleware@npm:7.25.0, @tsed/platform-log-middleware@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/platform-log-middleware@npm:7.25.0"
+"@tsed/platform-log-middleware@npm:7.26.0, @tsed/platform-log-middleware@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/platform-log-middleware@npm:7.26.0"
   dependencies:
     tslib: 2.5.0
   peerDependencies:
-    "@tsed/di": ^7.25.0
-    "@tsed/platform-middlewares": ^7.25.0
-    "@tsed/platform-params": ^7.25.0
+    "@tsed/di": ^7.26.0
+    "@tsed/platform-middlewares": ^7.26.0
+    "@tsed/platform-params": ^7.26.0
   peerDependenciesMeta:
     "@tsed/di":
       optional: false
@@ -2733,19 +2733,19 @@ __metadata:
       optional: false
     "@tsed/platform-params":
       optional: false
-  checksum: 08886258791373bf27aff68265783ff138438da6b6ad2266296210c58b9b87fd0cee225b5d2df7e1aa0c58996d9f5d7f747d6f3c6f8bd22bcdf1d58a681c29b7
+  checksum: 8a37c2bc11bf13c6435d75eff741b0d197d8a3cf04d3fc5358037634ee86bbb244f50906a9f1681afdf76a1640d318027c35103a1fed2f0a7a172ae228a0c1de
   languageName: node
   linkType: hard
 
-"@tsed/platform-middlewares@npm:7.25.0, @tsed/platform-middlewares@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/platform-middlewares@npm:7.25.0"
+"@tsed/platform-middlewares@npm:7.26.0, @tsed/platform-middlewares@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/platform-middlewares@npm:7.26.0"
   dependencies:
     tslib: 2.5.0
   peerDependencies:
-    "@tsed/core": ^7.25.0
-    "@tsed/di": ^7.25.0
-    "@tsed/schema": ^7.25.0
+    "@tsed/core": ^7.26.0
+    "@tsed/di": ^7.26.0
+    "@tsed/schema": ^7.26.0
   peerDependenciesMeta:
     "@tsed/core":
       optional: true
@@ -2753,47 +2753,21 @@ __metadata:
       optional: true
     "@tsed/schema":
       optional: true
-  checksum: 568515099b79f49234787849a4b617c7ff944d20fbdb4a6a110815d8a4b958aa92c3770f2576f83e3a8d872e05dd1c76c816a8e3ed2466a1ae09cacf4a882cec
+  checksum: 206d77ddc36903cf97fb1938c137e56ce3aa2feb7d6226bdf50c5f2ef6f6acd62c55ac00a47720e24ea4500a7333f1abf3b276453482d7e35817b2b5e51dc0bd
   languageName: node
   linkType: hard
 
-"@tsed/platform-params@npm:7.25.0, @tsed/platform-params@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/platform-params@npm:7.25.0"
+"@tsed/platform-params@npm:7.26.0, @tsed/platform-params@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/platform-params@npm:7.26.0"
   dependencies:
     tslib: 2.5.0
   peerDependencies:
-    "@tsed/core": ^7.25.0
-    "@tsed/di": ^7.25.0
-    "@tsed/exceptions": ^7.25.0
-    "@tsed/json-mapper": ^7.25.0
-    "@tsed/schema": ^7.25.0
-  peerDependenciesMeta:
-    "@tsed/core":
-      optional: false
-    "@tsed/di":
-      optional: false
-    "@tsed/exceptions":
-      optional: false
-    "@tsed/json-mapper":
-      optional: false
-    "@tsed/schema":
-      optional: false
-  checksum: 4c0a546a5744c5736e703a7d3d8dfb42cf6febd89803db48ca1c834ff2418fa003d13e9535d51a9a06c6e03c8d29f37a31ff8b403e81c0b76d84b12e0b6c57c5
-  languageName: node
-  linkType: hard
-
-"@tsed/platform-response-filter@npm:7.25.0, @tsed/platform-response-filter@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/platform-response-filter@npm:7.25.0"
-  dependencies:
-    tslib: 2.5.0
-  peerDependencies:
-    "@tsed/core": ^7.25.0
-    "@tsed/di": ^7.25.0
-    "@tsed/exceptions": ^7.25.0
-    "@tsed/json-mapper": ^7.25.0
-    "@tsed/schema": ^7.25.0
+    "@tsed/core": ^7.26.0
+    "@tsed/di": ^7.26.0
+    "@tsed/exceptions": ^7.26.0
+    "@tsed/json-mapper": ^7.26.0
+    "@tsed/schema": ^7.26.0
   peerDependenciesMeta:
     "@tsed/core":
       optional: false
@@ -2805,22 +2779,48 @@ __metadata:
       optional: false
     "@tsed/schema":
       optional: false
-  checksum: ea07588984aaceff0013ee84ad5e4bfeddd83853b93ac48d18b4b38fdd7a7f75685574220d763f8c3859207213a0618266f8d7552252870780299d9b10cdf734
+  checksum: 6933b4bf531bc0d76497ba7a04a175208f7a8df2dce16253339e160a2e0d6d5ca3e46f5cde08a122165a44667c9bd3fb9eb81034f3915567590849c3a7ba51df
   languageName: node
   linkType: hard
 
-"@tsed/platform-router@npm:7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/platform-router@npm:7.25.0"
+"@tsed/platform-response-filter@npm:7.26.0, @tsed/platform-response-filter@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/platform-response-filter@npm:7.26.0"
   dependencies:
     tslib: 2.5.0
   peerDependencies:
-    "@tsed/core": ^7.25.0
-    "@tsed/di": ^7.25.0
-    "@tsed/exceptions": ^7.25.0
-    "@tsed/json-mapper": ^7.25.0
-    "@tsed/platform-params": ^7.25.0
-    "@tsed/schema": ^7.25.0
+    "@tsed/core": ^7.26.0
+    "@tsed/di": ^7.26.0
+    "@tsed/exceptions": ^7.26.0
+    "@tsed/json-mapper": ^7.26.0
+    "@tsed/schema": ^7.26.0
+  peerDependenciesMeta:
+    "@tsed/core":
+      optional: false
+    "@tsed/di":
+      optional: false
+    "@tsed/exceptions":
+      optional: false
+    "@tsed/json-mapper":
+      optional: false
+    "@tsed/schema":
+      optional: false
+  checksum: 22f8372f02332d54b5ea560e2f073f91ea6fe50baef67517cd66a60696a20b690a8858ad30b62d8ff35ce791876427365e0c913948656a2b4c6e36c2767f37f5
+  languageName: node
+  linkType: hard
+
+"@tsed/platform-router@npm:7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/platform-router@npm:7.26.0"
+  dependencies:
+    tslib: 2.5.0
+  peerDependencies:
+    "@tsed/core": ^7.26.0
+    "@tsed/di": ^7.26.0
+    "@tsed/exceptions": ^7.26.0
+    "@tsed/json-mapper": ^7.26.0
+    "@tsed/platform-params": ^7.26.0
+    "@tsed/schema": ^7.26.0
   peerDependenciesMeta:
     "@tsed/core":
       optional: false
@@ -2834,23 +2834,23 @@ __metadata:
       optional: false
     "@tsed/schema":
       optional: false
-  checksum: a8688315cdc14067f1300bf20b3239085c83c8f2973b12246250c4adb6735c648fc925fa1faf8e92d9377d9269ae353ee2788a24a3d17a41fb97c97a3a11885c
+  checksum: 6dcc4c345df6c3e76fb95e64389c2d92415793d88f287e64f94f0a692e9196f492df39df154ea1aea6edc9bd9aff2c992e1fa657db2ceabfe00db15624a2cb24
   languageName: node
   linkType: hard
 
-"@tsed/platform-views@npm:7.25.0, @tsed/platform-views@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/platform-views@npm:7.25.0"
+"@tsed/platform-views@npm:7.26.0, @tsed/platform-views@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/platform-views@npm:7.26.0"
   dependencies:
-    "@tsed/engines": 7.25.0
+    "@tsed/engines": 7.26.0
     ejs: ^3.1.5
     tslib: 2.5.0
   peerDependencies:
-    "@tsed/core": ^7.25.0
-    "@tsed/di": ^7.25.0
-    "@tsed/engines": ^7.25.0
-    "@tsed/exceptions": ^7.25.0
-    "@tsed/schema": ^7.25.0
+    "@tsed/core": ^7.26.0
+    "@tsed/di": ^7.26.0
+    "@tsed/engines": ^7.26.0
+    "@tsed/exceptions": ^7.26.0
+    "@tsed/schema": ^7.26.0
   peerDependenciesMeta:
     "@tsed/core":
       optional: false
@@ -2860,15 +2860,15 @@ __metadata:
       optional: false
     "@tsed/schema":
       optional: false
-  checksum: e1e7ec3bb85f21e1111a9d37d6a6ef6928d6732b6c41e22a1aef768d18a8666e02394a4073264ec8bd288cb1a59864af947884e70f2aec58d027134bf9680d97
+  checksum: 2317e6294b9f23d25dc83114f10819a668b01147af109f552cfbf4af58e4a77bfd8707b1d575784084cc48cee30e90b596bcc57a99154d54b4a10a0ec5833a15
   languageName: node
   linkType: hard
 
-"@tsed/schema@npm:7.25.0, @tsed/schema@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/schema@npm:7.25.0"
+"@tsed/schema@npm:7.26.0, @tsed/schema@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/schema@npm:7.26.0"
   dependencies:
-    "@tsed/openspec": 7.25.0
+    "@tsed/openspec": 7.26.0
     change-case: ^4.1.2
     fs-extra: ^10.0.1
     json-schema: 0.4.0
@@ -2876,50 +2876,50 @@ __metadata:
     statuses: ">=2.0.1"
     tslib: 2.5.0
   peerDependencies:
-    "@tsed/core": ^7.25.0
-    "@tsed/openspec": ^7.25.0
+    "@tsed/core": ^7.26.0
+    "@tsed/openspec": ^7.26.0
   peerDependenciesMeta:
     "@tsed/core":
       optional: false
     "@tsed/openspec":
       optional: false
-  checksum: 0c21561a6f367cb31bd3ef2f19612e3ecb47a5a3efaa4dfeb8bc52248bc4d3427bdd79b21898e9864e17defb2942a0efe3882a39ca837b23ccedf24cc8707ce3
+  checksum: 93dc1c755a3ceea123f592847cc0d84dc8bcdc3fdbc60e149118dff4418d06c01b633ee5b499f7cee678c8ad62f85eb33e9379e6e2b5222602ab15602bf81209
   languageName: node
   linkType: hard
 
-"@tsed/swagger@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/swagger@npm:7.25.0"
+"@tsed/swagger@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/swagger@npm:7.26.0"
   dependencies:
-    "@tsed/normalize-path": 7.25.0
-    "@tsed/openspec": 7.25.0
+    "@tsed/normalize-path": 7.26.0
+    "@tsed/openspec": 7.26.0
     filedirname: ^2.7.0
     fs-extra: 10.0.1
     micromatch: 4.0.5
     swagger-ui-dist: ^4.5.2
     tslib: 2.5.0
   peerDependencies:
-    "@tsed/common": ^7.25.0
+    "@tsed/common": ^7.26.0
   peerDependenciesMeta:
     "@tsed/common":
       optional: false
-  checksum: b2badba014416945ed34ec08cb2a80d4c58e65544eb0faec6eaa5f5177e3a306ed250cf5f0df811a3161380e5b581dc34bf92def36ff0315158cb5a7e0c92165
+  checksum: 875f0102c020653ebdcd4e7e0b28b173e146661f99ac98085744591f4340a2e9b6db91e52539171514bff8783dc6475d2c18926047e248d09f21f0e2b427e944
   languageName: node
   linkType: hard
 
-"@tsed/vite-ssr-plugin@npm:^7.25.0":
-  version: 7.25.0
-  resolution: "@tsed/vite-ssr-plugin@npm:7.25.0"
+"@tsed/vite-ssr-plugin@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@tsed/vite-ssr-plugin@npm:7.26.0"
   dependencies:
     sirv: ">=2.0.2"
   peerDependencies:
-    "@tsed/common": ^7.25.0
+    "@tsed/common": ^7.26.0
     vite: ">=4"
     vite-plugin-ssr: ">=0.4.114"
   peerDependenciesMeta:
     "@tsed/common":
       optional: false
-  checksum: eb3775b9ffaaa8bfe2e0ecd06530d22ab77362f664c2c46e9b9176de49827b056d2a51c1cfecccd6b2618fc66072732cd933741d6fc8bafb7e58e001ab1ddad1
+  checksum: 9ef8b559974a262648448b8faf5d611f31a14299b40b9a4fbe3462c79ccd773e5aa47e1c5b2c3c5f9d38ea8bc9a10e7de3d076d568a823f328c1e579ae9e7a43
   languageName: node
   linkType: hard
 
