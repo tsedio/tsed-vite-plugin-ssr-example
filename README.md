@@ -19,6 +19,8 @@
 
 > An awesome project based on Ts.ED framework
 
+<img src="./docs/assets/homepage.png" alt="Ts.ED vite plugin ssr"/>
+
 ## Features
 
 <img src="./docs/assets/homepage.png" alt="Ts.ED vite plugin ssr"/>
