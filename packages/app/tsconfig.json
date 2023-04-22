@@ -1,0 +1,10 @@
+{
+  "extends": "@project/config/tsconfig.web.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "skipLibCheck": true,
+    "types": ["vite/client"]
+  },
+  "include": ["pages", "renderer", "components", "react-app-env.d.ts", ".dev.test.ts", ".prod.test.ts", "vite.config.ts"],
+  "exclude": []
+}

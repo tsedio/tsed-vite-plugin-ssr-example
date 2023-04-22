@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "references": [
+    {
+      "path": "./packages/app"
+    },
+    {
+      "path": "./packages/server"
+    }
+  ],
+  "exclude": ["node_modules"]
+}
