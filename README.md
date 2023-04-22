@@ -21,6 +21,8 @@
 
 ## Features
 
+<img src="./docs/assets/homepage.png" alt="Ts.ED vite plugin ssr"/>
+
 - Ts.ED
 - Vite 4
 - Vite plugin ssr
