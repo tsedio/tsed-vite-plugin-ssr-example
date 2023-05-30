@@ -8,7 +8,6 @@
     "build": "nx run-many --target=build --all",
     "barrels": "nx run-many --target=barrels --all",
     "start:server": "yarn tsc:build && nx start @project/server",
-    "start:app": "yarn tsc:build && nx start @project/app",
     "test": "nx run-many --target=test --all",
     "tsc:build": "tsc --build",
     "lint": "nx run-many --target=lint --all",

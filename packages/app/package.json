@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "main": "vite.config.ts",
   "scripts": {
-    "dev": "npm run server",
-    "prod": "npm run build && npm run server:prod",
-    "build": "vite build",
-    "server": "ts-node server/index.ts",
-    "server:prod": "cross-env NODE_ENV=production ts-node server/index.ts"
+    "build": "vite build"
   },
   "dependencies": {
     "@types/compression": "^1.7.2",
