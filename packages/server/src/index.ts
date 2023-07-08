@@ -4,6 +4,12 @@ import {Server} from "./Server";
 
 async function bootstrap() {
   try {
+    if (process.env.NODE_ENV === "production") {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      await import("@project/app/dist/server/importBuild.cjs");
+    }
+
     const platform = await PlatformExpress.bootstrap(Server);
     await platform.listen();
 
